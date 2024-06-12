@@ -14,11 +14,12 @@ namespace Final_Game
     public partial class Form1 : Form
     {
         private bool _drawTop = false;
+      
 
         public Form1()
         {
             InitializeComponent();
-            
+         
 
         }
 
@@ -54,6 +55,12 @@ namespace Final_Game
         private void imgBottom_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnViewTops_Click(object sender, EventArgs e)
+        {
+            var myForm = new Tops(this);
+            myForm.Show();
         }
     }
 }
