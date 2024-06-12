@@ -30,19 +30,30 @@ namespace Final_Game
 
         private void btnButton_Click(object sender, EventArgs e)
         {
-             imgTop.Image = Properties.Resources.top2;
-            
+
+             imgTop.Image = Properties.Resources.shirt4;
+            imgBottom.Image = Properties.Resources.btm1;
+
            
+
         }
+       
 
         private void Form1_Load(object sender, EventArgs e)
         {
             imgTop.Parent = imgPerson;
             imgPerson.BackColor = Color.Transparent;
+            imgBottom.Parent = imgPerson;
+            imgBottom.BackColor = Color.Transparent;
             
 
             // Load the image with a transparent background
 
-        } 
+        }
+
+        private void imgBottom_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -73,9 +73,9 @@ namespace Final_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bottom1 {
+        internal static System.Drawing.Bitmap btm1 {
             get {
-                object obj = ResourceManager.GetObject("bottom1", resourceCulture);
+                object obj = ResourceManager.GetObject("btm1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Final_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bottom2 {
+        internal static System.Drawing.Bitmap btm2 {
             get {
-                object obj = ResourceManager.GetObject("bottom2", resourceCulture);
+                object obj = ResourceManager.GetObject("btm2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace Final_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bottom3 {
+        internal static System.Drawing.Bitmap btm3 {
             get {
-                object obj = ResourceManager.GetObject("bottom3", resourceCulture);
+                object obj = ResourceManager.GetObject("btm3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace Final_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bottom4 {
+        internal static System.Drawing.Bitmap btm4 {
             get {
-                object obj = ResourceManager.GetObject("bottom4", resourceCulture);
+                object obj = ResourceManager.GetObject("btm4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace Final_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap top1 {
+        internal static System.Drawing.Bitmap shirt1 {
             get {
-                object obj = ResourceManager.GetObject("top1", resourceCulture);
+                object obj = ResourceManager.GetObject("shirt1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace Final_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap top2 {
+        internal static System.Drawing.Bitmap shirt2 {
             get {
-                object obj = ResourceManager.GetObject("top2", resourceCulture);
+                object obj = ResourceManager.GetObject("shirt2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace Final_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap top3 {
+        internal static System.Drawing.Bitmap shirt3 {
             get {
-                object obj = ResourceManager.GetObject("top3", resourceCulture);
+                object obj = ResourceManager.GetObject("shirt3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace Final_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap top4 {
+        internal static System.Drawing.Bitmap shirt4 {
             get {
-                object obj = ResourceManager.GetObject("top4", resourceCulture);
+                object obj = ResourceManager.GetObject("shirt4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
