@@ -36,6 +36,7 @@
             this.imgPerson = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnBottom = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.imgBottom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgTop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgPerson)).BeginInit();
@@ -45,7 +46,7 @@
             // 
             // btnButton
             // 
-            this.btnButton.Location = new System.Drawing.Point(36, 89);
+            this.btnButton.Location = new System.Drawing.Point(32, 370);
             this.btnButton.Name = "btnButton";
             this.btnButton.Size = new System.Drawing.Size(103, 65);
             this.btnButton.TabIndex = 3;
@@ -113,12 +114,23 @@
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             // 
+            // btnBottom
+            // 
+            this.btnBottom.Location = new System.Drawing.Point(14, 89);
+            this.btnBottom.Name = "btnBottom";
+            this.btnBottom.Size = new System.Drawing.Size(152, 41);
+            this.btnBottom.TabIndex = 7;
+            this.btnBottom.Text = "View Bottoms";
+            this.btnBottom.UseVisualStyleBackColor = true;
+            this.btnBottom.Click += new System.EventHandler(this.btnBottom_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(784, 474);
+            this.Controls.Add(this.btnBottom);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnViewTops);
@@ -147,6 +159,7 @@
         private System.Windows.Forms.Button btnViewTops;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btnBottom;
     }
 }
 

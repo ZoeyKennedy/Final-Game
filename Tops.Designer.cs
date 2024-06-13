@@ -64,6 +64,7 @@
             this.radShirt2.TabIndex = 1;
             this.radShirt2.TabStop = true;
             this.radShirt2.UseVisualStyleBackColor = true;
+            this.radShirt2.CheckedChanged += new System.EventHandler(this.radShirt2_CheckedChanged);
             // 
             // radShirt3
             // 
@@ -74,6 +75,7 @@
             this.radShirt3.TabIndex = 2;
             this.radShirt3.TabStop = true;
             this.radShirt3.UseVisualStyleBackColor = true;
+            this.radShirt3.CheckedChanged += new System.EventHandler(this.radShirt3_CheckedChanged);
             // 
             // tadShirt4
             // 
@@ -84,6 +86,7 @@
             this.tadShirt4.TabIndex = 3;
             this.tadShirt4.TabStop = true;
             this.tadShirt4.UseVisualStyleBackColor = true;
+            this.tadShirt4.CheckedChanged += new System.EventHandler(this.tadShirt4_CheckedChanged);
             // 
             // grpTops
             // 

@@ -18,12 +18,28 @@ namespace Final_Game
         {
             InitializeComponent();
             this.form1 = form1;
+            radShirt1.Checked = false;
         }
 
         private void radShirt1_CheckedChanged(object sender, EventArgs e)
         {
             form1.imgTop.Image  = Properties.Resources.shirt1;
 
+        }
+
+        private void radShirt2_CheckedChanged(object sender, EventArgs e)
+        {
+            form1.imgTop.Image = Properties.Resources.shirt2;
+        }
+
+        private void radShirt3_CheckedChanged(object sender, EventArgs e)
+        {
+            form1.imgTop.Image = Properties.Resources.shirt3;
+        }
+
+        private void tadShirt4_CheckedChanged(object sender, EventArgs e)
+        {
+            form1.imgTop.Image = Properties.Resources.shirt4;
         }
     }
 }

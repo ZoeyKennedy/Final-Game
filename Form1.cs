@@ -62,5 +62,11 @@ namespace Final_Game
             var myForm = new Tops(this);
             myForm.Show();
         }
+
+        private void btnBottom_Click(object sender, EventArgs e)
+        {
+           var myForm = new Bottoms(this);
+            myForm.Show();
+        }
     }
 }
