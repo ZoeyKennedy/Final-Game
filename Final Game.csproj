@@ -125,5 +125,29 @@
   <ItemGroup>
     <None Include="Resources\base.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SHIRT1 %281%29.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SHIRT3 %281%29.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SHIRT4 %281%29.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTTOM1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTTOM2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTTOM3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTTOM4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bow1 cropped.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

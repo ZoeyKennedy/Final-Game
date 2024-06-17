@@ -73,6 +73,56 @@ namespace Final_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BOTTOM1 {
+            get {
+                object obj = ResourceManager.GetObject("BOTTOM1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BOTTOM2 {
+            get {
+                object obj = ResourceManager.GetObject("BOTTOM2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BOTTOM3 {
+            get {
+                object obj = ResourceManager.GetObject("BOTTOM3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BOTTOM4 {
+            get {
+                object obj = ResourceManager.GetObject("BOTTOM4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bow1_cropped {
+            get {
+                object obj = ResourceManager.GetObject("bow1_cropped", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btm1 {
             get {
                 object obj = ResourceManager.GetObject("btm1", resourceCulture);
@@ -123,6 +173,16 @@ namespace Final_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap SHIRT1__1_ {
+            get {
+                object obj = ResourceManager.GetObject("SHIRT1__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap shirt2 {
             get {
                 object obj = ResourceManager.GetObject("shirt2", resourceCulture);
@@ -143,9 +203,29 @@ namespace Final_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap SHIRT3__1_ {
+            get {
+                object obj = ResourceManager.GetObject("SHIRT3__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap shirt4 {
             get {
                 object obj = ResourceManager.GetObject("shirt4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SHIRT4__1_ {
+            get {
+                object obj = ResourceManager.GetObject("SHIRT4__1_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

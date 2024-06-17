@@ -31,9 +31,11 @@ namespace Final_Game
 
         private void btnButton_Click(object sender, EventArgs e)
         {
-
-             imgTop.Image = Properties.Resources.shirt4;
-            imgBottom.Image = Properties.Resources.btm1;
+            imgTop.Visible = true;
+            imgBottom.Visible = true;
+             imgTop.Image = Properties.Resources.SHIRT3__1_;
+            imgBottom.Image = Properties.Resources.BOTTOM3;
+            
 
            
 
@@ -46,6 +48,8 @@ namespace Final_Game
             imgPerson.BackColor = Color.Transparent;
             imgBottom.Parent = imgPerson;
             imgBottom.BackColor = Color.Transparent;
+            imgShirt2.Parent = imgPerson;
+            imgShirt2.BackColor = Color.Transparent;
             
 
             // Load the image with a transparent background
@@ -54,7 +58,7 @@ namespace Final_Game
 
         private void imgBottom_Click(object sender, EventArgs e)
         {
-
+             
         }
 
         private void btnViewTops_Click(object sender, EventArgs e)
@@ -66,7 +70,12 @@ namespace Final_Game
         private void btnBottom_Click(object sender, EventArgs e)
         {
            var myForm = new Bottoms(this);
-            myForm.Show();
+           myForm.Show();
+        }
+
+        private void imgShirts_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

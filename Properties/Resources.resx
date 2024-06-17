@@ -118,6 +118,21 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BOTTOM1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTTOM1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTTOM2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTTOM2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTTOM3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTTOM3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTTOM4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTTOM4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bow1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bow1 cropped.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="btm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btm1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -133,14 +148,23 @@
   <data name="shirt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shirt1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SHIRT1__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SHIRT1 (1).PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="shirt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shirt2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="shirt3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shirt3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SHIRT3__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SHIRT3 (1).PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="shirt4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shirt4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHIRT4__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SHIRT4 (1).PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_base" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\base.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
