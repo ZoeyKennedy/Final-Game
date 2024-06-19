@@ -14,14 +14,55 @@ namespace Final_Game
     public partial class Form1 : Form
     {
         private bool _drawTop = false;
-      
+        private Timer animationTimer;
+        private int currentFrame;
+        private Image[] frames;
 
         public Form1()
         {
             InitializeComponent();
-         
+            InitializeAnimation();
 
         }
+        private void InitializeAnimation()
+        {
+            frames = new Image[]
+                {
+                Properties.Resources.BOW1,
+                Properties.Resources.BOW1_1,
+                Properties.Resources.BOW1_5,
+                Properties.Resources.BOW2,
+                Properties.Resources.BOW2_5,
+                Properties.Resources.BOW3,
+                Properties.Resources.BOW3_5,
+                //Properties.Resources.BOW4,
+                Properties.Resources.BOW4_5,
+                Properties.Resources.BOW4_7,
+                Properties.Resources.BOW5,
+                Properties.Resources.BOW4_7,
+                Properties.Resources.BOW4_5,
+               // Properties.Resources.BOW4,
+                Properties.Resources.BOW3_5,
+                Properties.Resources.BOW3,
+                Properties.Resources.BOW2_5,
+                Properties.Resources.BOW2,
+                Properties.Resources.BOW1_5,
+                Properties.Resources.BOW1_1,
+                };
+            currentFrame = 0;
+            imgBow.Image = frames[currentFrame];
+
+            animationTimer = new Timer();
+            animationTimer.Interval = 200;
+            animationTimer.Tick += new EventHandler(OnAnimationTick);
+            animationTimer.Start();
+        }
+        private void OnAnimationTick (object sender, EventArgs e)
+        {
+            currentFrame = (currentFrame + 1) % frames.Length;
+            imgBow.Image = frames[currentFrame];
+        }
+        
 
         private void imgTop_Click(object sender, EventArgs e)
         {
@@ -77,5 +118,14 @@ namespace Final_Game
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var myForm = new Shoes(this);
+            myForm.Show();
+        }
+
+        
+        
     }
 }

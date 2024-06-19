@@ -32,14 +32,15 @@
             this.btnButton = new System.Windows.Forms.Button();
             this.btnViewTops = new System.Windows.Forms.Button();
             this.btnBottom = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.btnShoes = new System.Windows.Forms.Button();
+            this.imgBow = new System.Windows.Forms.PictureBox();
             this.imgShirt2 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.imgBottom = new System.Windows.Forms.PictureBox();
             this.imgTop = new System.Windows.Forms.PictureBox();
             this.imgPerson = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgShirt2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -50,43 +51,69 @@
             // 
             // btnButton
             // 
+            this.btnButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(165)))), ((int)(((byte)(188)))));
+            this.btnButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnButton.Font = new System.Drawing.Font("Segoe Script", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(22)))), ((int)(((byte)(6)))));
             this.btnButton.Location = new System.Drawing.Point(32, 370);
             this.btnButton.Name = "btnButton";
             this.btnButton.Size = new System.Drawing.Size(103, 65);
             this.btnButton.TabIndex = 3;
             this.btnButton.Text = "button1";
-            this.btnButton.UseVisualStyleBackColor = true;
+            this.btnButton.UseVisualStyleBackColor = false;
             this.btnButton.Click += new System.EventHandler(this.btnButton_Click);
             // 
             // btnViewTops
             // 
+            this.btnViewTops.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(165)))), ((int)(((byte)(188)))));
+            this.btnViewTops.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnViewTops.Font = new System.Drawing.Font("Segoe Script", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewTops.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(22)))), ((int)(((byte)(6)))));
             this.btnViewTops.Location = new System.Drawing.Point(14, 26);
             this.btnViewTops.Name = "btnViewTops";
             this.btnViewTops.Size = new System.Drawing.Size(152, 41);
             this.btnViewTops.TabIndex = 4;
             this.btnViewTops.Text = "View Tops";
-            this.btnViewTops.UseVisualStyleBackColor = true;
+            this.btnViewTops.UseVisualStyleBackColor = false;
             this.btnViewTops.Click += new System.EventHandler(this.btnViewTops_Click);
             // 
             // btnBottom
             // 
+            this.btnBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(165)))), ((int)(((byte)(188)))));
+            this.btnBottom.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnBottom.Font = new System.Drawing.Font("Segoe Script", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBottom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(22)))), ((int)(((byte)(6)))));
             this.btnBottom.Location = new System.Drawing.Point(14, 89);
             this.btnBottom.Name = "btnBottom";
             this.btnBottom.Size = new System.Drawing.Size(152, 41);
             this.btnBottom.TabIndex = 7;
             this.btnBottom.Text = "View Bottoms";
-            this.btnBottom.UseVisualStyleBackColor = true;
+            this.btnBottom.UseVisualStyleBackColor = false;
             this.btnBottom.Click += new System.EventHandler(this.btnBottom_Click);
             // 
-            // pictureBox3
+            // btnShoes
             // 
-            this.pictureBox3.Image = global::Final_Game.Properties.Resources.bow1_cropped;
-            this.pictureBox3.Location = new System.Drawing.Point(552, -20);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(261, 295);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 9;
-            this.pictureBox3.TabStop = false;
+            this.btnShoes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(165)))), ((int)(((byte)(188)))));
+            this.btnShoes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnShoes.Font = new System.Drawing.Font("Segoe Script", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnShoes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(22)))), ((int)(((byte)(6)))));
+            this.btnShoes.Location = new System.Drawing.Point(16, 155);
+            this.btnShoes.Name = "btnShoes";
+            this.btnShoes.Size = new System.Drawing.Size(150, 41);
+            this.btnShoes.TabIndex = 10;
+            this.btnShoes.Text = "View Shoes";
+            this.btnShoes.UseVisualStyleBackColor = false;
+            this.btnShoes.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // imgBow
+            // 
+            this.imgBow.Image = global::Final_Game.Properties.Resources.bow1_cropped;
+            this.imgBow.Location = new System.Drawing.Point(552, -20);
+            this.imgBow.Name = "imgBow";
+            this.imgBow.Size = new System.Drawing.Size(261, 295);
+            this.imgBow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgBow.TabIndex = 9;
+            this.imgBow.TabStop = false;
             // 
             // imgShirt2
             // 
@@ -158,7 +185,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(784, 474);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.btnShoes);
+            this.Controls.Add(this.imgBow);
             this.Controls.Add(this.imgShirt2);
             this.Controls.Add(this.btnBottom);
             this.Controls.Add(this.pictureBox2);
@@ -168,10 +196,11 @@
             this.Controls.Add(this.imgTop);
             this.Controls.Add(this.btnButton);
             this.Controls.Add(this.imgPerson);
+            this.Cursor = System.Windows.Forms.Cursors.Cross;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgShirt2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -183,8 +212,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox imgPerson;
         public System.Windows.Forms.PictureBox imgTop;
         private System.Windows.Forms.Button btnButton;
         private System.Windows.Forms.Button btnViewTops;
@@ -193,7 +220,9 @@
         private System.Windows.Forms.Button btnBottom;
         public System.Windows.Forms.PictureBox imgShirt2;
         public System.Windows.Forms.PictureBox imgBottom;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox imgBow;
+        private System.Windows.Forms.Button btnShoes;
+        public System.Windows.Forms.PictureBox imgPerson;
     }
 }
 

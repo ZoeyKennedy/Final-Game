@@ -130,8 +130,41 @@
   <data name="BOTTOM4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BOTTOM4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BOW1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOW1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOW1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOW1.1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOW1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOW1.5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bow1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bow1 cropped.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOW2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOW2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOW2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOW2.5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOW3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOW3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOW3_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOW3.5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOW4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOW4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOW4_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOW4.5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOW4_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOW4.7.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOW5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOW5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btm1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -144,6 +177,33 @@
   </data>
   <data name="btm4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btm4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="croppedshoes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\croppedshoes1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="croppedshoes2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\croppedshoes2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="croppedshoes3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\croppedshoes3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glassesV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glassesV1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glassesV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glassesV2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hairclip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hairclip.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="handbag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\handbag.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hiarbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hiarbow.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="shirt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shirt1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -165,6 +225,15 @@
   </data>
   <data name="SHIRT4__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SHIRT4 (1).PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shoes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shoes1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shoes2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shoes2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shoes3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shoes3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_base" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\base.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
