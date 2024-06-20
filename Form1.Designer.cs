@@ -33,6 +33,7 @@
             this.btnViewTops = new System.Windows.Forms.Button();
             this.btnBottom = new System.Windows.Forms.Button();
             this.btnShoes = new System.Windows.Forms.Button();
+            this.imgHead = new System.Windows.Forms.PictureBox();
             this.imgBow = new System.Windows.Forms.PictureBox();
             this.imgShirt2 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -40,6 +41,8 @@
             this.imgBottom = new System.Windows.Forms.PictureBox();
             this.imgTop = new System.Windows.Forms.PictureBox();
             this.imgPerson = new System.Windows.Forms.PictureBox();
+            this.btnAccessories = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.imgHead)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgBow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgShirt2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -104,6 +107,16 @@
             this.btnShoes.Text = "View Shoes";
             this.btnShoes.UseVisualStyleBackColor = false;
             this.btnShoes.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // imgHead
+            // 
+            this.imgHead.Image = global::Final_Game.Properties.Resources.glassesV1;
+            this.imgHead.Location = new System.Drawing.Point(148, -20);
+            this.imgHead.Name = "imgHead";
+            this.imgHead.Size = new System.Drawing.Size(122, 127);
+            this.imgHead.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgHead.TabIndex = 11;
+            this.imgHead.TabStop = false;
             // 
             // imgBow
             // 
@@ -179,12 +192,28 @@
             this.imgPerson.TabIndex = 0;
             this.imgPerson.TabStop = false;
             // 
+            // btnAccessories
+            // 
+            this.btnAccessories.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(165)))), ((int)(((byte)(188)))));
+            this.btnAccessories.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAccessories.Font = new System.Drawing.Font("Segoe Script", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAccessories.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(22)))), ((int)(((byte)(6)))));
+            this.btnAccessories.Location = new System.Drawing.Point(16, 220);
+            this.btnAccessories.Name = "btnAccessories";
+            this.btnAccessories.Size = new System.Drawing.Size(150, 41);
+            this.btnAccessories.TabIndex = 12;
+            this.btnAccessories.Text = "View Accessories";
+            this.btnAccessories.UseVisualStyleBackColor = false;
+            this.btnAccessories.Click += new System.EventHandler(this.btnAccessories_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(784, 474);
+            this.Controls.Add(this.btnAccessories);
+            this.Controls.Add(this.imgHead);
             this.Controls.Add(this.btnShoes);
             this.Controls.Add(this.imgBow);
             this.Controls.Add(this.imgShirt2);
@@ -200,6 +229,7 @@
             this.Name = "Form1";
             this.Text = " ";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.imgHead)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgBow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgShirt2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -223,6 +253,8 @@
         private System.Windows.Forms.PictureBox imgBow;
         private System.Windows.Forms.Button btnShoes;
         public System.Windows.Forms.PictureBox imgPerson;
+        private System.Windows.Forms.Button btnAccessories;
+        public System.Windows.Forms.PictureBox imgHead;
     }
 }
 

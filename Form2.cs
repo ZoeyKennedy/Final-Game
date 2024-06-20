@@ -48,5 +48,10 @@ namespace Final_Game
             form1.imgBottom.Visible = true;
             form1.imgBottom.Image = Properties.Resources.BOTTOM4;
         }
+
+        private void Bottoms_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

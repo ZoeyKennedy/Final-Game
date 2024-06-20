@@ -154,6 +154,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Name = "Bottoms";
             this.Text = "Bottoms";
+            this.Load += new System.EventHandler(this.Bottoms_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

@@ -10,9 +10,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Final_Game
-{
+{ 
     public partial class Form1 : Form
     {
+      
         private bool _drawTop = false;
         private Timer animationTimer;
         private int currentFrame;
@@ -22,6 +23,15 @@ namespace Final_Game
         {
             InitializeComponent();
             InitializeAnimation();
+            
+        }
+        public void Update()
+        {
+            while (imgBottom.Image == Properties.Resources.BOTTOM1 || imgTop.Image == Properties.Resources.SHIRT3__1_ )
+            {
+                
+                    
+            }
 
         }
         private void InitializeAnimation()
@@ -91,6 +101,9 @@ namespace Final_Game
             imgBottom.BackColor = Color.Transparent;
             imgShirt2.Parent = imgPerson;
             imgShirt2.BackColor = Color.Transparent;
+            imgHead.Parent = imgPerson;
+            imgHead.BackColor = Color.Transparent;
+
             
 
             // Load the image with a transparent background
@@ -125,7 +138,10 @@ namespace Final_Game
             myForm.Show();
         }
 
-        
-        
+        private void btnAccessories_Click(object sender, EventArgs e)
+        {
+            var myForm = new Form4(this);
+            myForm.Show();
+        }
     }
 }
