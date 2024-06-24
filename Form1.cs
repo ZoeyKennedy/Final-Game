@@ -13,11 +13,19 @@ namespace Final_Game
 { 
     public partial class Form1 : Form
     {
-      
+        Form5 form5;
+        Form4 form4;
         private bool _drawTop = false;
         private Timer animationTimer;
         private int currentFrame;
         private Image[] frames;
+        public Image ImgBottomImage { get; private set; }
+        public Image ImgTopImage { get; private set; }
+
+        static class Final_Game
+        {
+          
+        }
 
         public Form1()
         {
@@ -27,12 +35,8 @@ namespace Final_Game
         }
         public void Update()
         {
-            while (imgBottom.Image == Properties.Resources.BOTTOM1 || imgTop.Image == Properties.Resources.SHIRT3__1_ )
-            {
-                
-                    
-            }
-
+            
+            
         }
         private void InitializeAnimation()
         {
@@ -91,8 +95,22 @@ namespace Final_Game
            
 
         }
-       
 
+        private void btnAccessories_Click(object sender, EventArgs e)
+        {
+            // Set images (for example purposes)
+            ImgTopImage = Properties.Resources.SHIRT3__1_;
+            ImgBottomImage = Properties.Resources.BOTTOM3;
+
+            // Display the images on Form1
+            imgTop.Image = ImgTopImage;
+            imgBottom.Image = ImgBottomImage;
+
+            Form4 form4 = new Form4(this);
+            form4.Show();
+        }
+
+        
         private void Form1_Load(object sender, EventArgs e)
         {
             imgTop.Parent = imgPerson;
@@ -106,10 +124,11 @@ namespace Final_Game
 
             
 
-            // Load the image with a transparent background
+          
 
         }
 
+      
         private void imgBottom_Click(object sender, EventArgs e)
         {
              
@@ -138,9 +157,9 @@ namespace Final_Game
             myForm.Show();
         }
 
-        private void btnAccessories_Click(object sender, EventArgs e)
+        private void btnMiniGame_Click(object sender, EventArgs e)
         {
-            var myForm = new Form4(this);
+            var myForm = new Form5(this);
             myForm.Show();
         }
     }

@@ -36,9 +36,9 @@
             this.radHat = new System.Windows.Forms.RadioButton();
             this.radHairClip = new System.Windows.Forms.RadioButton();
             this.grpAccessories = new System.Windows.Forms.GroupBox();
+            this.radNoAccessories = new System.Windows.Forms.RadioButton();
             this.radUnlockedAccessories = new System.Windows.Forms.RadioButton();
             this.btnBottom = new System.Windows.Forms.Button();
-            this.radNoAccessories = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -65,6 +65,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox3
             // 
@@ -132,6 +133,17 @@
             this.grpAccessories.TabIndex = 7;
             this.grpAccessories.TabStop = false;
             // 
+            // radNoAccessories
+            // 
+            this.radNoAccessories.AutoSize = true;
+            this.radNoAccessories.Location = new System.Drawing.Point(8, 25);
+            this.radNoAccessories.Name = "radNoAccessories";
+            this.radNoAccessories.Size = new System.Drawing.Size(14, 13);
+            this.radNoAccessories.TabIndex = 9;
+            this.radNoAccessories.TabStop = true;
+            this.radNoAccessories.UseVisualStyleBackColor = true;
+            this.radNoAccessories.CheckedChanged += new System.EventHandler(this.radNoAccessories_CheckedChanged);
+            // 
             // radUnlockedAccessories
             // 
             this.radUnlockedAccessories.AutoSize = true;
@@ -155,17 +167,6 @@
             this.btnBottom.Text = "No Accessories";
             this.btnBottom.UseVisualStyleBackColor = false;
             // 
-            // radNoAccessories
-            // 
-            this.radNoAccessories.AutoSize = true;
-            this.radNoAccessories.Location = new System.Drawing.Point(8, 25);
-            this.radNoAccessories.Name = "radNoAccessories";
-            this.radNoAccessories.Size = new System.Drawing.Size(14, 13);
-            this.radNoAccessories.TabIndex = 9;
-            this.radNoAccessories.TabStop = true;
-            this.radNoAccessories.UseVisualStyleBackColor = true;
-            this.radNoAccessories.CheckedChanged += new System.EventHandler(this.radNoAccessories_CheckedChanged);
-            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -179,7 +180,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox3);
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.Text = "Accessories";
             this.Load += new System.EventHandler(this.Form4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -196,13 +197,13 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox imgUnlockedAccessories;
-        private System.Windows.Forms.RadioButton radGlassesV2;
-        private System.Windows.Forms.RadioButton radHat;
-        private System.Windows.Forms.RadioButton radHairClip;
         private System.Windows.Forms.GroupBox grpAccessories;
-        private System.Windows.Forms.RadioButton radUnlockedAccessories;
-        private System.Windows.Forms.RadioButton radNoAccessories;
         private System.Windows.Forms.Button btnBottom;
+        public System.Windows.Forms.PictureBox imgUnlockedAccessories;
+        public System.Windows.Forms.RadioButton radGlassesV2;
+        public System.Windows.Forms.RadioButton radHat;
+        public System.Windows.Forms.RadioButton radHairClip;
+        public System.Windows.Forms.RadioButton radUnlockedAccessories;
+        public System.Windows.Forms.RadioButton radNoAccessories;
     }
 }
