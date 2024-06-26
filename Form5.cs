@@ -117,27 +117,43 @@ namespace Final_Game
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            form1.Update();
+            
             {
                 if (unlockedItem == 1)
                 {
-                    form1.imgTest1.Image = Properties.Resources.UNLOCKABLE_BOTTOMS1;
+                    form1.imgPrizeItemLong.Image = Properties.Resources.UNLOCKABLE_BOTTOMS1;
+                    form1.imgPrizeItemLong.Visible = true;
+                    form1.imgPrizeItemShort.Visible = false;
                 }
                 if (unlockedItem ==2)
                 {
-                    form1.imgTest1.Image = Properties.Resources.BOW2_5;
+                    form1.imgPrizeItemLong.Image = Properties.Resources.BOW2_5;
+                    form1.imgPrizeItemLong.Visible = true;
+                    form1.imgPrizeItemShort.Visible = false;
                 }
                 if (unlockedItem == 3)
                 {
-                    form1.imgTest2.Image = Properties.Resources.handbag;
+                    form1.imgPrizeItemShort.Image = Properties.Resources.handbag;
+                    form1.imgPrizeItemLong.Visible = false;
+                    form1.imgPrizeItemShort.Visible = true;
                 }
                 if (unlockedItem == 4)
                 {
-                    form1.imgTest2.Image = Properties.Resources.glassesV1;
+                    form1.imgPrizeItemShort.Image = Properties.Resources.glassesV1;
+                    form1.imgPrizeItemLong.Visible = false;
+                    form1.imgPrizeItemShort.Visible = true;
                 }
             }
             this.Close();
-            
+            if (form1.imgPrizeItemLong.Visible == true)
+            {
+                form1.imgPrizeItemShort.Visible = false;
+            }
+            else
+            {
+                form1.imgPrizeItemLong.Visible = false;
+            }
+
         }
     }
 }

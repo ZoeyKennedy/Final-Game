@@ -54,10 +54,10 @@
             // lblPrompt
             // 
             this.lblPrompt.AutoSize = true;
-            this.lblPrompt.Font = new System.Drawing.Font("Segoe Script", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrompt.Location = new System.Drawing.Point(72, 133);
+            this.lblPrompt.Font = new System.Drawing.Font("Segoe Script", 12.25F, System.Drawing.FontStyle.Bold);
+            this.lblPrompt.Location = new System.Drawing.Point(12, 128);
             this.lblPrompt.Name = "lblPrompt";
-            this.lblPrompt.Size = new System.Drawing.Size(125, 44);
+            this.lblPrompt.Size = new System.Drawing.Size(79, 28);
             this.lblPrompt.TabIndex = 1;
             this.lblPrompt.Text = "prompt";
             // 
@@ -84,7 +84,6 @@
             this.lblTextInstructions.TabIndex = 3;
             this.lblTextInstructions.Text = "Type your guess into the textbox below, then click the \"Guess\" button to submit y" +
     "our guess";
-          //  this.lblTextInstructions.Click += new System.EventHandler(this.lblTextInstructions_Click);
             // 
             // lblGuessesRemaining
             // 

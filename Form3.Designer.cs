@@ -119,11 +119,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(232, 470);
             this.Controls.Add(this.grpShoes);
             this.Controls.Add(this.imgchooseshoe3);
             this.Controls.Add(this.imgchooseShoe);
             this.Controls.Add(this.imgchooseshoe2);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(22)))), ((int)(((byte)(6)))));
             this.Location = new System.Drawing.Point(100, 200);
             this.Name = "Shoes";
             this.Text = "Shoes";

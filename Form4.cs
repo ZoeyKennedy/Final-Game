@@ -34,7 +34,7 @@ namespace Final_Game
 
                 if (bottomImageName == "BOTTOM1" && topImageName == "SHIRT3__1_")
                 {
-                    imgUnlockedAccessories.Image = Properties.Resources.glassesV1;
+                    //imgUnlockedAccessories.Image = Properties.Resources.glassesV1;
                     Console.WriteLine("Condition met: Images matched.");
                 }
 

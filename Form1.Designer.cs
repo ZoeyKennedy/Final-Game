@@ -76,6 +76,7 @@
             this.btnButton.TabIndex = 3;
             this.btnButton.Text = "button1";
             this.btnButton.UseVisualStyleBackColor = false;
+            this.btnButton.Visible = false;
             // 
             // btnViewTops
             // 
@@ -117,6 +118,7 @@
             this.btnShoes.TabIndex = 10;
             this.btnShoes.Text = "View Shoes";
             this.btnShoes.UseVisualStyleBackColor = false;
+            this.btnShoes.Click += new System.EventHandler(this.btnShoes_Click_1);
             // 
             // btnAccessories
             // 
@@ -134,17 +136,21 @@
             // 
             // btnMiniGame
             // 
+            this.btnMiniGame.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(165)))), ((int)(((byte)(188)))));
+            this.btnMiniGame.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnMiniGame.Font = new System.Drawing.Font("Segoe Script", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnMiniGame.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(22)))), ((int)(((byte)(6)))));
             this.btnMiniGame.Location = new System.Drawing.Point(16, 301);
             this.btnMiniGame.Name = "btnMiniGame";
             this.btnMiniGame.Size = new System.Drawing.Size(150, 41);
             this.btnMiniGame.TabIndex = 13;
             this.btnMiniGame.Text = "Unlock New Item";
-            this.btnMiniGame.UseVisualStyleBackColor = true;
+            this.btnMiniGame.UseVisualStyleBackColor = false;
             this.btnMiniGame.Click += new System.EventHandler(this.btnMiniGame_Click);
             // 
             // imgHead
             // 
-            this.imgHead.Location = new System.Drawing.Point(148, -4);
+            this.imgHead.Location = new System.Drawing.Point(148, -17);
             this.imgHead.Name = "imgHead";
             this.imgHead.Size = new System.Drawing.Size(122, 127);
             this.imgHead.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -164,13 +170,14 @@
             // imgShirt2
             // 
             this.imgShirt2.Image = global::Final_Game.Properties.Resources.shirt2;
-            this.imgShirt2.Location = new System.Drawing.Point(170, 129);
+            this.imgShirt2.Location = new System.Drawing.Point(170, 113);
             this.imgShirt2.Name = "imgShirt2";
             this.imgShirt2.Size = new System.Drawing.Size(111, 113);
             this.imgShirt2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgShirt2.TabIndex = 8;
             this.imgShirt2.TabStop = false;
             this.imgShirt2.Visible = false;
+            this.imgShirt2.Click += new System.EventHandler(this.imgShirt2_Click);
             // 
             // pictureBox2
             // 
@@ -192,7 +199,7 @@
             // 
             this.imgBottom.BackColor = System.Drawing.Color.Transparent;
             this.imgBottom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.imgBottom.Location = new System.Drawing.Point(175, 217);
+            this.imgBottom.Location = new System.Drawing.Point(172, 198);
             this.imgBottom.Name = "imgBottom";
             this.imgBottom.Size = new System.Drawing.Size(150, 234);
             this.imgBottom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -204,7 +211,7 @@
             // 
             this.imgTop.BackColor = System.Drawing.Color.Transparent;
             this.imgTop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.imgTop.Location = new System.Drawing.Point(180, 139);
+            this.imgTop.Location = new System.Drawing.Point(180, 120);
             this.imgTop.Name = "imgTop";
             this.imgTop.Size = new System.Drawing.Size(90, 85);
             this.imgTop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -234,7 +241,7 @@
             // 
             // imgPrizeItemShort
             // 
-            this.imgPrizeItemShort.Location = new System.Drawing.Point(612, 326);
+            this.imgPrizeItemShort.Location = new System.Drawing.Point(606, 326);
             this.imgPrizeItemShort.Name = "imgPrizeItemShort";
             this.imgPrizeItemShort.Size = new System.Drawing.Size(147, 125);
             this.imgPrizeItemShort.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -255,7 +262,7 @@
             // 
             // imgTest1
             // 
-            this.imgTest1.Location = new System.Drawing.Point(421, 449);
+            this.imgTest1.Location = new System.Drawing.Point(14, 457);
             this.imgTest1.Name = "imgTest1";
             this.imgTest1.Size = new System.Drawing.Size(49, 48);
             this.imgTest1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -264,7 +271,7 @@
             // 
             // imgTest2
             // 
-            this.imgTest2.Location = new System.Drawing.Point(370, 449);
+            this.imgTest2.Location = new System.Drawing.Point(92, 457);
             this.imgTest2.Name = "imgTest2";
             this.imgTest2.Size = new System.Drawing.Size(31, 48);
             this.imgTest2.TabIndex = 18;
@@ -273,12 +280,13 @@
             // imgBag
             // 
             this.imgBag.Image = global::Final_Game.Properties.Resources.handbag;
-            this.imgBag.Location = new System.Drawing.Point(303, 162);
+            this.imgBag.Location = new System.Drawing.Point(125, 141);
             this.imgBag.Name = "imgBag";
             this.imgBag.Size = new System.Drawing.Size(70, 71);
             this.imgBag.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgBag.TabIndex = 19;
             this.imgBag.TabStop = false;
+            this.imgBag.Visible = false;
             // 
             // Form1
             // 

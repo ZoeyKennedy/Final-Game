@@ -90,6 +90,7 @@
             // 
             // grpTops
             // 
+            this.grpTops.BackColor = System.Drawing.Color.Thistle;
             this.grpTops.Controls.Add(this.tadShirt4);
             this.grpTops.Controls.Add(this.radShirt1);
             this.grpTops.Controls.Add(this.radShirt2);
@@ -144,6 +145,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(138, 499);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox4);

@@ -15,6 +15,7 @@ namespace Final_Game
     {
         Form5 form5;
         Form4 form4;
+      Shoes form3;
         private bool _drawTop = false;
         private Timer animationTimer;
         private int currentFrame;
@@ -32,45 +33,59 @@ namespace Final_Game
         public void ItemUnlockedFromMiniGame(int unlockedItem)
         {
             // Check if checkbox is checked before updating images
-          //  if (chkWearNewItem.Checked)
-          //  {
-              //  switch (unlockedItem)
-             //   {
-              //      case 1:
-             //           imgTest1.Image = Properties.Resources.UNLOCKABLE_BOTTOMS1;
-              //         break;
-               //     case 2:
-               //         imgTest1.Image = Properties.Resources.BOW2_5;
-              //          break;
-                //    case 3:
-                //        imgTest2.Image = Properties.Resources.handbag;
-              //          break;
-                //    case 4:
-                //       imgTest2.Image = Properties.Resources.glassesV1;
-              //          break;
-               //     default:
-               //         imgTest1.Image = null;
-              //          imgTest2.Image = null;
-              //          break;
-               // }
-           // }
+            //  if (chkWearNewItem.Checked)
+            //  {
+            //  switch (unlockedItem)
+            //   {
+            //      case 1:
+            //           imgTest1.Image = Properties.Resources.UNLOCKABLE_BOTTOMS1;
+            //         break;
+            //     case 2:
+            //         imgTest1.Image = Properties.Resources.BOW2_5;
+            //          break;
+            //    case 3:
+            //        imgTest2.Image = Properties.Resources.handbag;
+            //          break;
+            //    case 4:
+            //       imgTest2.Image = Properties.Resources.glassesV1;
+            //          break;
+            //     default:
+            //         imgTest1.Image = null;
+            //          imgTest2.Image = null;
+            //          break;
+            // }
+            // }
         }
 
         public void chkWearNewItem_CheckedChanged(object sender, EventArgs e)
         {
-           if (form5.unlockedItem == 1)
+            if (chkWearNewItem.Checked == true)
             {
-                imgBottom.Image = Properties.Resources.UNLOCKABLE_BOTTOMS1;
+                if (form5.unlockedItem == 1)
+                {
+                    imgBottom.Image = Properties.Resources.UNLOCKABLE_BOTTOMS1;
+                }
+                else if (form5.unlockedItem == 2)
+                {
+                    imgHead.Image = Properties.Resources.hiarbow;
+                }
+                else if (form5.unlockedItem == 3)
+                {
+                    imgBag.Visible = true;
+                }
+                else if (form5.UnlockedItem == 4)
+                {
+                    imgHead.Image = Properties.Resources.glassesV1;
+                }
             }
-           else if (form5.unlockedItem ==2)
+            else if (chkWearNewItem.Checked == false)
             {
-                imgHead.Image = Properties.Resources.hiarbow;
-            }
-           else if (form5.unlockedItem == 3)
-            {
-               // img
+                imgBag.Visible = false;
+
             }
         }
+    
+        
 
         private void InitializeAnimation()
         {
@@ -141,6 +156,8 @@ namespace Final_Game
             imgShirt2.BackColor = Color.Transparent;
             imgHead.Parent = imgPerson;
             imgHead.BackColor = Color.Transparent;
+            imgBag.Parent = imgPerson;
+            imgBag.BackColor = Color.Transparent;
         }
 
         private void btnViewTops_Click(object sender, EventArgs e)
@@ -165,6 +182,17 @@ namespace Final_Game
         {
             form5 = new Form5(this);
             form5.Show();
+        }
+
+        private void imgShirt2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnShoes_Click_1(object sender, EventArgs e)
+        {
+            form3 = new Shoes(this);
+            form3.Show();
         }
     }
 }

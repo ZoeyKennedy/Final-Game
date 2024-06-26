@@ -31,18 +31,15 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.imgUnlockedAccessories = new System.Windows.Forms.PictureBox();
             this.radGlassesV2 = new System.Windows.Forms.RadioButton();
             this.radHat = new System.Windows.Forms.RadioButton();
             this.radHairClip = new System.Windows.Forms.RadioButton();
             this.grpAccessories = new System.Windows.Forms.GroupBox();
             this.radNoAccessories = new System.Windows.Forms.RadioButton();
-            this.radUnlockedAccessories = new System.Windows.Forms.RadioButton();
             this.btnBottom = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgUnlockedAccessories)).BeginInit();
             this.grpAccessories.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,15 +73,6 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
-            // 
-            // imgUnlockedAccessories
-            // 
-            this.imgUnlockedAccessories.Location = new System.Drawing.Point(6, 334);
-            this.imgUnlockedAccessories.Name = "imgUnlockedAccessories";
-            this.imgUnlockedAccessories.Size = new System.Drawing.Size(131, 120);
-            this.imgUnlockedAccessories.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgUnlockedAccessories.TabIndex = 3;
-            this.imgUnlockedAccessories.TabStop = false;
             // 
             // radGlassesV2
             // 
@@ -122,7 +110,6 @@
             // grpAccessories
             // 
             this.grpAccessories.Controls.Add(this.radNoAccessories);
-            this.grpAccessories.Controls.Add(this.radUnlockedAccessories);
             this.grpAccessories.Controls.Add(this.radHairClip);
             this.grpAccessories.Controls.Add(this.radHat);
             this.grpAccessories.Controls.Add(this.radGlassesV2);
@@ -144,16 +131,6 @@
             this.radNoAccessories.UseVisualStyleBackColor = true;
             this.radNoAccessories.CheckedChanged += new System.EventHandler(this.radNoAccessories_CheckedChanged);
             // 
-            // radUnlockedAccessories
-            // 
-            this.radUnlockedAccessories.AutoSize = true;
-            this.radUnlockedAccessories.Location = new System.Drawing.Point(7, 385);
-            this.radUnlockedAccessories.Name = "radUnlockedAccessories";
-            this.radUnlockedAccessories.Size = new System.Drawing.Size(14, 13);
-            this.radUnlockedAccessories.TabIndex = 8;
-            this.radUnlockedAccessories.TabStop = true;
-            this.radUnlockedAccessories.UseVisualStyleBackColor = true;
-            // 
             // btnBottom
             // 
             this.btnBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(165)))), ((int)(((byte)(188)))));
@@ -172,10 +149,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
-            this.ClientSize = new System.Drawing.Size(167, 450);
+            this.ClientSize = new System.Drawing.Size(167, 392);
             this.Controls.Add(this.btnBottom);
             this.Controls.Add(this.grpAccessories);
-            this.Controls.Add(this.imgUnlockedAccessories);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox3);
@@ -185,7 +161,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgUnlockedAccessories)).EndInit();
             this.grpAccessories.ResumeLayout(false);
             this.grpAccessories.PerformLayout();
             this.ResumeLayout(false);
@@ -199,11 +174,9 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.GroupBox grpAccessories;
         private System.Windows.Forms.Button btnBottom;
-        public System.Windows.Forms.PictureBox imgUnlockedAccessories;
         public System.Windows.Forms.RadioButton radGlassesV2;
         public System.Windows.Forms.RadioButton radHat;
         public System.Windows.Forms.RadioButton radHairClip;
-        public System.Windows.Forms.RadioButton radUnlockedAccessories;
         public System.Windows.Forms.RadioButton radNoAccessories;
     }
 }
