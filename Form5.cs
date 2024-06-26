@@ -72,18 +72,20 @@ namespace Final_Game
 
                     else
                     {
-                        lblPrompt.Text = "You guessed the secret number! Click the 'Guess' button again to reveal your unlocked item!";
-                        unlockedItem = generator.Next(1, 5);
+                        lblPrompt.Text = "You guessed the secret number!";
+                     //   lblLine2.Visible = true;
+                     //   lblLine2.Text = "Click the 'Guess' button again to reveal your unlocked item!";
+                        unlockedItem = generator.Next(2, 5);
 
                       
 
                         switch (unlockedItem)
                         {
-                            case 1:
-                                imgPrizeLong.Image = Properties.Resources.UNLOCKABLE_BOTTOMS1;
-                                imgPrizeLong.Visible = true;
-                                imgPrizeSquare.Visible = false;
-                                break;
+                           // case 1:
+                          //      imgPrizeLong.Image = Properties.Resources.UNLOCKABLE_BOTTOMS1;
+                         //       imgPrizeLong.Visible = true;
+                            //    imgPrizeSquare.Visible = false;
+                               // break;
                             case 2:
                                 imgPrizeLong.Image = Properties.Resources.BOW2_5;
                                 imgPrizeLong.Visible = true;
@@ -119,29 +121,32 @@ namespace Final_Game
         {
             
             {
-                if (unlockedItem == 1)
-                {
-                    form1.imgPrizeItemLong.Image = Properties.Resources.UNLOCKABLE_BOTTOMS1;
-                    form1.imgPrizeItemLong.Visible = true;
-                    form1.imgPrizeItemShort.Visible = false;
-                }
+             //   if (unlockedItem == 1)
+             //   {
+              //      form1.imgPrizeItemLong.Image = Properties.Resources.UNLOCKABLE_BOTTOMS1;
+             //       form1.imgPrizeItemLong.Visible = true;
+            //        form1.imgPrizeItemShort.Visible = false;
+             //   }
                 if (unlockedItem ==2)
                 {
                     form1.imgPrizeItemLong.Image = Properties.Resources.BOW2_5;
                     form1.imgPrizeItemLong.Visible = true;
                     form1.imgPrizeItemShort.Visible = false;
+                    form1.chkWearNewItem.Visible = true;
                 }
                 if (unlockedItem == 3)
                 {
                     form1.imgPrizeItemShort.Image = Properties.Resources.handbag;
                     form1.imgPrizeItemLong.Visible = false;
                     form1.imgPrizeItemShort.Visible = true;
+                    form1.chkWearNewItem.Visible = true;
                 }
                 if (unlockedItem == 4)
                 {
                     form1.imgPrizeItemShort.Image = Properties.Resources.glassesV1;
                     form1.imgPrizeItemLong.Visible = false;
                     form1.imgPrizeItemShort.Visible = true;
+                    form1.chkWearNewItem.Visible = true;
                 }
             }
             this.Close();
@@ -153,6 +158,11 @@ namespace Final_Game
             {
                 form1.imgPrizeItemLong.Visible = false;
             }
+
+        }
+
+        private void lblPrompt_Click(object sender, EventArgs e)
+        {
 
         }
     }

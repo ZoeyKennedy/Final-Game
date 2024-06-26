@@ -34,11 +34,17 @@
             this.lblTextInstructions = new System.Windows.Forms.Label();
             this.lblGuessesRemaining = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
-            this.imgPrizeLong = new System.Windows.Forms.PictureBox();
             this.lblSecretNumber = new System.Windows.Forms.Label();
+            this.lblLine2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.imgPrizeSquare = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.imgPrizeLong)).BeginInit();
+            this.imgPrizeLong = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgPrizeSquare)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgPrizeLong)).BeginInit();
             this.SuspendLayout();
             // 
             // txtInput
@@ -55,11 +61,12 @@
             // 
             this.lblPrompt.AutoSize = true;
             this.lblPrompt.Font = new System.Drawing.Font("Segoe Script", 12.25F, System.Drawing.FontStyle.Bold);
-            this.lblPrompt.Location = new System.Drawing.Point(12, 128);
+            this.lblPrompt.Location = new System.Drawing.Point(66, 160);
             this.lblPrompt.Name = "lblPrompt";
             this.lblPrompt.Size = new System.Drawing.Size(79, 28);
             this.lblPrompt.TabIndex = 1;
             this.lblPrompt.Text = "prompt";
+            this.lblPrompt.Click += new System.EventHandler(this.lblPrompt_Click);
             // 
             // btnGuess
             // 
@@ -109,15 +116,6 @@
             this.btnClose.Visible = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // imgPrizeLong
-            // 
-            this.imgPrizeLong.Location = new System.Drawing.Point(573, 91);
-            this.imgPrizeLong.Name = "imgPrizeLong";
-            this.imgPrizeLong.Size = new System.Drawing.Size(201, 306);
-            this.imgPrizeLong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgPrizeLong.TabIndex = 6;
-            this.imgPrizeLong.TabStop = false;
-            // 
             // lblSecretNumber
             // 
             this.lblSecretNumber.AutoSize = true;
@@ -127,6 +125,38 @@
             this.lblSecretNumber.Size = new System.Drawing.Size(109, 44);
             this.lblSecretNumber.TabIndex = 7;
             this.lblSecretNumber.Text = "label1";
+            this.lblSecretNumber.Visible = false;
+            // 
+            // lblLine2
+            // 
+            this.lblLine2.AutoSize = true;
+            this.lblLine2.Font = new System.Drawing.Font("Segoe Script", 12.25F, System.Drawing.FontStyle.Bold);
+            this.lblLine2.Location = new System.Drawing.Point(82, 199);
+            this.lblLine2.Name = "lblLine2";
+            this.lblLine2.Size = new System.Drawing.Size(79, 28);
+            this.lblLine2.TabIndex = 28;
+            this.lblLine2.Text = "prompt";
+            this.lblLine2.Visible = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Final_Game.Properties.Resources.RIGHT;
+            this.pictureBox1.Location = new System.Drawing.Point(768, -7);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(32, 464);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 26;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Final_Game.Properties.Resources.LEFT;
+            this.pictureBox6.Location = new System.Drawing.Point(1, -11);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(32, 468);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 25;
+            this.pictureBox6.TabStop = false;
             // 
             // imgPrizeSquare
             // 
@@ -137,12 +167,35 @@
             this.imgPrizeSquare.TabIndex = 8;
             this.imgPrizeSquare.TabStop = false;
             // 
+            // imgPrizeLong
+            // 
+            this.imgPrizeLong.Location = new System.Drawing.Point(573, 91);
+            this.imgPrizeLong.Name = "imgPrizeLong";
+            this.imgPrizeLong.Size = new System.Drawing.Size(201, 306);
+            this.imgPrizeLong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgPrizeLong.TabIndex = 6;
+            this.imgPrizeLong.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe Script", 10.25F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(57, 214);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(226, 22);
+            this.label1.TabIndex = 29;
+            this.label1.Text = "here is a secret number betw";
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblLine2);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.imgPrizeSquare);
             this.Controls.Add(this.lblSecretNumber);
             this.Controls.Add(this.imgPrizeLong);
@@ -156,8 +209,10 @@
             this.Name = "Form5";
             this.Text = "Minigame";
             this.Load += new System.EventHandler(this.Form5_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.imgPrizeLong)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgPrizeSquare)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgPrizeLong)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -174,5 +229,9 @@
         private System.Windows.Forms.PictureBox imgPrizeLong;
         private System.Windows.Forms.Label lblSecretNumber;
         private System.Windows.Forms.PictureBox imgPrizeSquare;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblLine2;
+        private System.Windows.Forms.Label label1;
     }
 }

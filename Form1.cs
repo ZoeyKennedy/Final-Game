@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,6 +14,8 @@ namespace Final_Game
 {
     public partial class Form1 : Form
     {
+        private SoundPlayer player;
+        Intro form6;
         Form5 form5;
         Form4 form4;
       Shoes form3;
@@ -27,6 +30,8 @@ namespace Final_Game
         {
             InitializeComponent();
             InitializeAnimation();
+           // player = new SoundPlayer("background.wav");
+           // player.PlayLooping();
         }
 
         // Event handler for when an item is unlocked in Form5
@@ -61,11 +66,11 @@ namespace Final_Game
         {
             if (chkWearNewItem.Checked == true)
             {
-                if (form5.unlockedItem == 1)
-                {
-                    imgBottom.Image = Properties.Resources.UNLOCKABLE_BOTTOMS1;
-                }
-                else if (form5.unlockedItem == 2)
+              //  if (form5.unlockedItem == 1)
+              //  {
+              //      imgBottom.Image = Properties.Resources.UNLOCKABLE_BOTTOMS1;
+             //   }
+                if (form5.unlockedItem == 2)
                 {
                     imgHead.Image = Properties.Resources.hiarbow;
                 }
@@ -148,6 +153,9 @@ namespace Final_Game
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            var myForm = new Intro(this);
+            myForm.Show();
+
             imgTop.Parent = imgPerson;
             imgPerson.BackColor = Color.Transparent;
             imgBottom.Parent = imgPerson;
@@ -158,6 +166,8 @@ namespace Final_Game
             imgHead.BackColor = Color.Transparent;
             imgBag.Parent = imgPerson;
             imgBag.BackColor = Color.Transparent;
+            
+            
         }
 
         private void btnViewTops_Click(object sender, EventArgs e)
@@ -193,6 +203,16 @@ namespace Final_Game
         {
             form3 = new Shoes(this);
             form3.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+           // base.OnFormClosing(e);
+        //    player.Stop();
         }
     }
 }

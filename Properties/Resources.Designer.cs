@@ -363,6 +363,76 @@ namespace Final_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LACE {
+            get {
+                object obj = ResourceManager.GetObject("LACE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LEFT {
+            get {
+                object obj = ResourceManager.GetObject("LEFT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LeftLace {
+            get {
+                object obj = ResourceManager.GetObject("LeftLace", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LOWER {
+            get {
+                object obj = ResourceManager.GetObject("LOWER", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LowerLace {
+            get {
+                object obj = ResourceManager.GetObject("LowerLace", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RIGHT {
+            get {
+                object obj = ResourceManager.GetObject("RIGHT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RightLace {
+            get {
+                object obj = ResourceManager.GetObject("RightLace", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap shirt1 {
             get {
                 object obj = ResourceManager.GetObject("shirt1", resourceCulture);
@@ -466,6 +536,26 @@ namespace Final_Game.Properties {
         internal static System.Drawing.Bitmap UNLOCKABLE_BOTTOMS1 {
             get {
                 object obj = ResourceManager.GetObject("UNLOCKABLE_BOTTOMS1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap UPPER {
+            get {
+                object obj = ResourceManager.GetObject("UPPER", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap UpperLace {
+            get {
+                object obj = ResourceManager.GetObject("UpperLace", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
