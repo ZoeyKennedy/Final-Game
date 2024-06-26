@@ -39,7 +39,7 @@ namespace Final_Game
 
         private void Form5_Load(object sender, EventArgs e)
         {
-            secretNumber = generator.Next(1, 51);
+            secretNumber = generator.Next(1, 31);
 
             GuessesRemaining = 5;
             lblPrompt.Text = "Enter your guess!";
@@ -58,6 +58,8 @@ namespace Final_Game
                 {
                     lblGuessesRemaining.Text = "You're out of guesses!";
                     btnClose.Visible = true;
+                    btnGuess.Visible = false; 
+                    lblLine2.Text = "The secret number was " + secretNumber.ToString();
                 }
                 else
                 {
